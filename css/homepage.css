@@ -426,6 +426,13 @@ img.shdw-for-img{
 .banner_search button:hover svg path{
   stroke: var(--info);
 }
+.copyright ul li a{
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "gilroy-mediumuploaded_file";
+  color: var(--black);
+  padding: 0;
+}
 @media (min-width:991px) {
   .more_btn a:hover, .view_all a:hover{
     color: var(--black);

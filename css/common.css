@@ -358,7 +358,11 @@ button.slick-next.slick-arrow::after {
   margin-bottom: 47px;
 }
 .pb_56{
-  padding-bottom: 56px;
+  padding-bottom: 58px;
+  padding-top: 118px;
+}
+.pb-19{
+  padding-bottom: 19px;
 }
 .col_reverse .col-lg-5.col-12 {
   display: flex;
@@ -405,6 +409,9 @@ img{
 }
 h3.pr_30{
   padding-right: 30px;
+}
+.pt_118{
+  padding-top: 118px;
 }
 @media (max-width: 991px) {
   
