@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "gilroy-blackuploaded_file";
+    src: url("../fonts/gilroy-black-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-black-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-blackitaliuploadedfile";
+    src: url("../fonts/gilroy-blackitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-blackitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-bolduploaded_file";
+    src: url("../fonts/gilroy-bold-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-bolditalicuploadedfile";
+    src: url("../fonts/gilroy-bolditalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-bolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-extrabolduploaded_file";
+    src: url("../fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-extrabold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-extraboldiuploadedfile";
+    src: url("../fonts/gilroy-extrabolditalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-extrabolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-heavyuploaded_file";
+    src: url("../fonts/gilroy-heavy-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-heavy-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-heavyitaliuploadedfile";
+    src: url("../fonts/gilroy-heavyitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-heavyitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-lightuploaded_file";
+    src: url("../fonts/gilroy-light-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-lightitaliuploadedfile";
+    src: url("../fonts/gilroy-lightitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-lightitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-mediumuploaded_file";
+    src: url("../fonts/gilroy-medium-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gilroy-mediumitaluploadedfile";
+    src: url("../fonts/gilroy-mediumitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-mediumitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-regularuploaded_file";
+    src: url("../fonts/gilroy-regular-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-regularitauploadedfile";
+    src: url("../fonts/gilroy-regularitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-regularitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-semibolduploaded_file";
+    src: url("../fonts/gilroy-semibold-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-semibold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-semiboldituploadedfile";
+    src: url("../fonts/gilroy-semibolditalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-semibolditalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-thinuploaded_file";
+    src: url("../fonts/gilroy-thin-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-thin-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-thinitalicuploadedfile";
+    src: url("../fonts/gilroy-thinitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-thinitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-ultralightuploadedfile";
+    src: url("../fonts/gilroy-ultralight-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-ultralight-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "gilroy-ultralightuploadedfile";
+    src: url("../fonts/gilroy-ultralightitalic-webfont.woff2") format("woff2"),
+      url("../fonts/gilroy-ultralightitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DMSans";
+    src: url("../fonts/DMSans-Regular.eot") format("eot");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DMSans";
+    src: url("../fonts/DMSans-Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DMSans";
+    src: url("../fonts/DMSans-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "DMSans";
+    src: url("../fonts/DMSans-Regular.woff2") format("woff2"),
+      url("../fonts/DMSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
