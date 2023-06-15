@@ -520,6 +520,7 @@ img.shdw-for-img{
   }
   .bottom_img{
     padding-bottom: 30px;
+    padding-top: 55px;
   }
   .mb_47,.width_100{
     padding: 0 15px;
@@ -647,6 +648,9 @@ img.shdw-for-img{
   .dollar_plus a.plus svg{
     width: 15px;
     height: 15px;
+  }
+  .bottom_img{
+    padding-top: 50px;
   }
 }
 @media (max-width: 500px) {

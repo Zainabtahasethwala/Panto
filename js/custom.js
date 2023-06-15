@@ -8,6 +8,7 @@ $(document).ready(function(){
         if ($(window).width()< 992) {
             var target = $(this);
                  $('ul.submenu').slideToggle();
+                 $(this).parent().toggleClass('active');
         }
     });
     // sticky header
