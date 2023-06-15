@@ -71,6 +71,10 @@ h5 {
   color: var(--grey);
   text-transform: capitalize;
   display: block;
+  font-family: "Inter";
+}
+.card-body h5{
+  font-family: "Inter";
 }
 h6 {
   font-weight: 400;
@@ -183,7 +187,7 @@ button.slick-next.slick-arrow {
   border-radius: 50%;
   text-indent: -9999px;
 }
-button.slick-next.slick-arrow{
+.top-arw-143 button.slick-next.slick-arrow{
   top: 143px;
   box-shadow: 0px 7.03125px 19.5312px rgba(0, 0, 0, 0.06);
   right: 0px;
@@ -206,6 +210,10 @@ button.slick-next.slick-arrow::after {
 .mins-mrgn{
   position: relative;
   margin-right: -9vw;
+}
+.minus_mrgn_left{
+  position: relative;
+  margin-left: -9vw;
 }
 .mins-mrgn .col-lg-5 .flx_col{
   flex-direction: column;
@@ -269,6 +277,7 @@ h3.pr_30{
 .pt_118{
   padding-top: 118px;
 }
+
 @media (max-width: 991px) {
   
   h1 {
@@ -285,7 +294,7 @@ h3.pr_30{
   }
   h3 {
     font-size: 35px;
-    line-height: 40px;
+    line-height: 43px;
   }
   h4 {
     font-size: 22px;
@@ -301,7 +310,7 @@ h3.pr_30{
     flex-direction: column-reverse;
   }
   .pt_55 {
-    padding-top: 55px;
+    padding-top: 50px;
   }
   .plt_80{
     padding-left: 0;
@@ -322,9 +331,16 @@ h3.pr_30{
   }
   .mins-mrgn .col-12 .flx_col{
     flex-direction: row;
+    justify-content: center !important;
   }
-  .mb_47{
+  .mb_47,.h3_mb_0 h3{
     margin-bottom: 0;
+  }
+  .algn_center_991{
+    justify-content: center;
+  }
+  .minus_mrgn_left{
+    margin-left: 0;
   }
 }
 @media (max-width: 767px) {
@@ -343,6 +359,7 @@ h3.pr_30{
   h3 {
     font-size: 30px;
     line-height: 40px;
+    margin-bottom: 0;
   }
   a.font_18 {
     font-size: 16px;
@@ -360,6 +377,7 @@ h3.pr_30{
   h6 {
     font-size: 13px;
     line-height: 15px;
+    margin-bottom: 10px;
   }
   h5 {
     font-size: 18px;
@@ -369,8 +387,8 @@ h3.pr_30{
     font-size: 14px;
     line-height: 15px;
   }
-  .slick-slider button.slick-prev.slick-arrow,
-  button.slick-next.slick-arrow {
+  .top-arw-143 .slick-slider button.slick-prev.slick-arrow,
+  .top-arw-143 .slick-slider button.slick-prev.slick-arrow {
     top: 132px;
   }
   .pt_55 {
@@ -388,7 +406,7 @@ h3.pr_30{
   }
   h3 {
     font-size: 26px;
-    line-height: 25px;
+    line-height: 36px;
   }
   p {
     font-size: 16px;
@@ -407,5 +425,8 @@ h3.pr_30{
   }
   .py_50{
     padding: 30px 0;
+  }
+  h6{
+    font-size: 12px;
   }
 }
