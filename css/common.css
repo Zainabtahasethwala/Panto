@@ -279,7 +279,9 @@ h3.pr_30{
 }
 
 @media (max-width: 991px) {
-  
+  .aos-init.aos-animate{
+    
+  }
   h1 {
     font-size: 48px;
     line-height: 60px;

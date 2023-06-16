@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Panto Furniture</title>
         <link rel="stylesheet" href="./css/aos.css">
+        <link rel="stylesheet" href="./css/aosanimation.css">
         <link rel="stylesheet" href="./css/slick.css" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/fonts.css">
@@ -222,7 +223,7 @@
                 data-aos="fade-right"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">Best Selling Product</h3>
-                <div class="tabbing text-center">
+                <div class="tabbing text-center">                     
                     <div class="wrapper_card"  >
                         <input type="radio" name="tab" id="tab1" checked />
                         <input type="radio" name="tab" id="tab2" />
@@ -1180,7 +1181,9 @@
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./js/custom.js"></script>
         <script>
-            AOS.init({disable: 'mobile'});
+            AOS.init({
+                disable: window.innerWidth < 992,
+            });
           </script>
     </body>
 </html>
