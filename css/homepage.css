@@ -27,7 +27,7 @@
 .banner_search input {
   width: 100%;
   border-radius: 42px;
-  padding: 15px 20px;
+  padding: 15px 50px 15px 20px;
   text-align: left;
   background: rgba(255, 255, 255, 0.15);
   border: 0.861538px solid rgba(255, 255, 255, 0.6);
@@ -114,6 +114,8 @@ span.objct_3 {
 .view_all a {
   font-size: 18px;
   line-height: 33px;
+  /* width: 100%;*/
+  display: block; 
 }
 .view_all a svg {
   padding-left: 16px;
@@ -141,6 +143,7 @@ span.objct_3 {
   border: 1px solid var(--tab_bg);
   border-radius: 44px;
   background-color: var(--tab_bg);
+  padding: 2px 0;
 }
 .wrapper_card input {
   position: absolute;
@@ -205,14 +208,12 @@ span.objct_3 {
 #tab2:checked ~ .nav-tabs .filter-label._tab2,
 #tab3:checked ~ .nav-tabs .filter-label._tab3,
 #tab4:checked ~ .nav-tabs .filter-label._tab4 {
-  left: 0px;
+  
   background-color: var(--white);
-  /* border: 1px solid transparent; */
   width: 84px;
   border-radius: 32px;
-  height: 43px;
-  top: 7px;
-  line-height: 33px;
+  margin: 6px 0;
+  height: auto;
 }
 /* tabbing */
 .dollar_plus {
@@ -445,7 +446,8 @@ img.shdw-for-img{
     color: var(--black);
   }
   .more_btn a:hover svg,.view_all a:hover svg{
-    padding-left: 22px;
+    margin-left: 22px;
+    padding-left: 0;
   }
   .more_btn a:hover svg path, .view_all a:hover svg path{
     stroke: var(--black);

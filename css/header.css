@@ -129,12 +129,14 @@ ul.submenu li a {
   nav {
     padding: 30px 0;
   }
-  .menutoggle {
+  .menutoggle a {
     position: relative;
     display: flex;
     align-items: center;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
   }
   .menutoggle span {
     display: block;
@@ -248,6 +250,7 @@ ul.submenu li a {
     top: 0;
   }
 }
+
 @media (max-width:915px) {
   li.li_menu span{
     margin-right: 28px;
