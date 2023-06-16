@@ -405,15 +405,15 @@ h3.pr_30{
     padding: 6px 0 30px;
   }
   h3 {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 31px;
   }
   p {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 19px;
   }
   h4 {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 18px;
     margin-bottom: 4px;
   }
@@ -428,5 +428,8 @@ h3.pr_30{
   }
   h6{
     font-size: 12px;
+  }
+  .py_120 .blog{
+    padding-top: 18px;
   }
 }

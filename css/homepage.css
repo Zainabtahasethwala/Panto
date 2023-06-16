@@ -114,10 +114,12 @@ span.objct_3 {
 .view_all a {
   font-size: 18px;
   line-height: 33px;
-  /* width: 100%;*/
-  display: block; 
+  display: block;
+    width: 152px;
+    text-align: left;
+    margin: auto;
 }
-.view_all a svg {
+.view_all  svg {
   padding-left: 16px;
   width: auto;
   transition: all 0.3s ease;
@@ -652,7 +654,7 @@ img.shdw-for-img{
     height: 15px;
   }
   .bottom_img{
-    padding-top: 50px;
+    padding-top: 40px;
   }
 }
 @media (max-width: 500px) {
@@ -673,6 +675,7 @@ img.shdw-for-img{
     font-size: 15px;
     line-height: 27px;
     height: 45px;
+    padding: 0 5px;
   }
   .wrapper_card .nav-tabs {
     width: 330px;
@@ -681,11 +684,13 @@ img.shdw-for-img{
   #tab2:checked ~ .nav-tabs .filter-label._tab2,
   #tab3:checked ~ .nav-tabs .filter-label._tab3,
   #tab4:checked ~ .nav-tabs .filter-label._tab4 {
-    height: 31px;
+    height: auto;
     width: 66px;
+    margin: 4px 0;
   }
+
   .tabbing {
-    padding-top: 10px;
+    padding-top: 16px;
   }
   .section_card {
     margin-top: 30px;
